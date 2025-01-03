@@ -11,6 +11,35 @@
 - 变量由变量的类型、变量名、变量值组成，格式：“变量类型 变量名 = 变量值;”
 - 变量名由字母、数字、下划线组成，且不能以数字开头。
 
+```c
+#include <iostream>
+using namespace std;
+
+int main() {
+    int a, b;
+    a = 10;
+    b = 5;
+    cout << "a = " << a << endl;
+    cout << "b = " << b << endl;
+    cout << "a + b = " << a + b << endl;
+    
+    int age = 10;
+    int height = 149;
+    
+    cout << "你的年龄：" << age << endl;
+    cout << "你的身高：" << height << endl;    
+    
+    return 0;
+}
+
+// 上面内容输出:
+a = 10
+b = 5
+a + b = 15
+你的年龄：10
+你的身高：149
+```
+
 ### 认识 cin 语句
 
 接收用户输入的字符串，并赋值给指定的变量，由 “cin >> 变量名;” 组成，注意要以英文分号（;）结束。
